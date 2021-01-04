@@ -1,8 +1,8 @@
 
 var myCar = {
-make: "Ford",
-model: "Mustang",
-year: 1969,
+make: "Smart",
+model: "Fortwo",
+year: 2006,
 speed: 120,
 }
 

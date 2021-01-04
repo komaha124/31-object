@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div>
@@ -19,17 +20,19 @@
             Функция для подсчета необходимого времени для преодоления переданного расстояния со средней скоростью. Учтите, что через каждые 4 часа дороги водителю необходимо делать перерыв на 1 час
         </p>
      
-    </div>
-
+   
+        <div class="but">
+        <div>
         <button id="car" onclick="buttonInfo()">Показать информацию</button>
         <p id="info"></p>
-
+        </div>
         <input placeholder="Сколько нужно проехать" id="distanc" type="number">
         <button onclick="distance()">Расчитать</button>
         <p id="info2"></p>
+        </div>
 
 
-
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
